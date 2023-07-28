@@ -9,9 +9,6 @@ const Merch = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  onAuthStateChanged(auth, (user) => {
-    setUser(user);
-  })
 
   useEffect(() => {
     const apiUrl = 'https://cj-api-production.up.railway.app/artists/';
@@ -28,6 +25,10 @@ const Merch = () => {
         });
     }
     getMerch();
+
+    onAuthStateChanged(auth, (user) => {
+      setUser(user);
+    })
     
     const unsubscribe = onAuthStateChanged(auth, setUser); 
     return () => unsubscribe(); 
