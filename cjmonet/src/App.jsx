@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home';
 import Nav from './components/Nav';
 import News from './components/News';
 import Bio from './components/Bio';
@@ -14,29 +15,15 @@ const App = () => {
   return (
     <div>
       <Nav />
-      <p>CJ Monet</p>
-      <Bio />
-      <div className='songs'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/SupnCh4RKIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p>"Cosmic Girl"</p>
-      </div>
-      <div className='songs'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ltVzoKegbYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p>"Ask About Me"</p>
-      </div>
-      <main>
-        <Routes>
-          <Route path="/news" element={<News />} />
-          <Route path="/tour" element={<Tour />} />
-          <Route path="/music" element={<Music />} />
-          <Route path="/merch" element={<Merch />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
-      <div id="footer">
-
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/tour" element={<Tour />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/merch" element={<Merch />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 };

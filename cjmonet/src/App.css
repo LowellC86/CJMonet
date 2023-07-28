@@ -4,3 +4,15 @@
 iframe {
     border-radius: 12px;
 }
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer > a {
+    display: flex;
+    width: 10%;
+}
+#footer img {
+    max-width: 100%;
+}
