@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home';
 import Nav from './components/Nav';
 import News from './components/News';
 import Bio from './components/Bio';
@@ -14,17 +15,15 @@ const App = () => {
   return (
     <div>
       <Nav />
-      <main>
-        <Routes>
-          <Route path="/news" element={<News />} />
-          <Route path="/bio" element={<Bio />} />
-          <Route path="/tour" element={<Tour />} />
-          <Route path="/music" element={<Music />} />
-          <Route path="/merch" element={<Merch />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/tour" element={<Tour />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/merch" element={<Merch />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 };

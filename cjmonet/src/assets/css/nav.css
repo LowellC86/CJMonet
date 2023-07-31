@@ -1,0 +1,16 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    column-gap: 2vw;
+}
+#header > div > a {
+    transition: all .3s;
+}
+#header > div:hover > a {
+    color: green;
+}
