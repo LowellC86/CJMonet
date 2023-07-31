@@ -15,10 +15,10 @@ const Home = () => {
         <p>"Ask About Me"</p>
       </div>
       <div id="footer">
-        <a href="https://www.youtube.com/channel/UCBZ57GwgpjCjHDhSz5meqhA" target="_blank" class="sqs-svg-icon--wrapper youtube" aria-label="Church Girls FH">
+        <a href="https://www.instagram.com/cj.monet/?hl=en" target="_blank" class="sqs-svg-icon--wrapper youtube" aria-label="CJ Monet">
           <img src="https://img.icons8.com/?size=512&id=32292&format=png" />
         </a>
-        <a href="http://instagram.com/churchgirlsphl" target="_blank" class="sqs-svg-icon--wrapper instagram" aria-label="Church Girls">
+        <a href="https://www.youtube.com/channel/UCwZsyKztBoHY9XO-9Qn7lQQ" target="_blank" class="sqs-svg-icon--wrapper instagram" aria-label="CJ Monet">
           <img src="https://img.icons8.com/?size=512&id=37326&format=png" />
         </a>
       </div>

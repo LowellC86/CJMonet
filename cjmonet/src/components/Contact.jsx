@@ -3,7 +3,6 @@ import React from 'react';
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     const formData = {
       name: e.target.elements.name.value,
       email: e.target.elements.email.value,
@@ -34,7 +33,7 @@ const Contact = () => {
             <textarea id="message" name="message" rows="4" required className="w-full p-2 border border-gray-300 rounded"></textarea>
           </div>
 
-          <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit</button>
+          <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-green-600">Submit</button>
         </form>
       </div>
     </div>
