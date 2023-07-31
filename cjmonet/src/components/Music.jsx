@@ -4,7 +4,7 @@ const Music = () => {
   return (
     <div>
       <h3>New Music!</h3>
-      <div className='songs'>
+      <div className='songs' style={{ maxWidth: '560px', margin: '0 auto' }}>
         <iframe
           width="560"
           height="315"
@@ -16,7 +16,7 @@ const Music = () => {
         ></iframe>
         <p>"Clementine"</p>
       </div>
-      <div className='songs'>
+      <div className='songs' style={{ maxWidth: '560px', margin: '0 auto' }}>
         <iframe
           width="560"
           height="315"
