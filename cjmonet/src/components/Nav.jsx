@@ -1,17 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../assets/css/nav.css'
+import '../assets/css/nav.css';
 
 const Nav = () => {
   return (
-    <div id="header" style={{marginLeft: 0, marginTop: 10, marginBottom: 0}}>
+    <div id="header" style={{ marginLeft: 0, marginTop: 10, marginBottom: 0 }}>
       <div>
         <Link to="/">Home</Link>
       </div>
       <div>
-        <a href='#bio'>
-          Bio
-        </a>
+        <Link to="/bio">Bio</Link>
       </div>
       <div>
         <Link to="/tour">Tour</Link>
@@ -29,4 +27,4 @@ const Nav = () => {
   );
 };
 
-export default Nav
+export default Nav;
