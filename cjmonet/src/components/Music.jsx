@@ -39,6 +39,8 @@ const Music = () => {
           <img
             src="https://img.icons8.com/?size=512&id=32292&format=png"
             alt="YouTube"
+            className="icon"
+            style={{ width: '32px', height: '32px', filter: 'invert(1) saturate(1.2)' }}
           />
         </a>
         <a
@@ -51,6 +53,8 @@ const Music = () => {
           <img
             src="https://img.icons8.com/?size=512&id=37326&format=png"
             alt="Instagram"
+            className="icon"
+            style={{ width: '32px', height: '32px', filter: 'invert(1) saturate(1.2)' }}
           />
         </a>
       </div>
