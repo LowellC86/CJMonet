@@ -33,10 +33,12 @@ The website utilizes cutting-edge technologies to provide a seamless and enjoyab
 
 ## Screenshots
 
-![Screenshot 1](https://github.com/LowellC86/CJMonet/blob/main/assets/132387494/4a661b90-7eaf-4373-8b15-4e98cd328573.png)
+![Screenshot 1]<img width="693" alt="Screenshot 2023-08-01 at 6 22 09 PM" src="https://github.com/LowellC86/CJMonet/assets/132387494/c0c6fa8c-48d7-468b-b066-342118b4fd11">
+
 *This is my home page*
 
-![Screenshot 2](https://github.com/LowellC86/CJMonet/blob/main/assets/132387494/8030fd37-c7a7-4206-adc9-fc0a6bb51f71.png)
+![Screenshot 2]<img width="831" alt="Screenshot 2023-08-01 at 6 22 19 PM" src="https://github.com/LowellC86/CJMonet/assets/132387494/0bc25659-c224-4a20-89ea-67be039a1a29">
+
 *This is my bio page*
 
 ## Future Updates
